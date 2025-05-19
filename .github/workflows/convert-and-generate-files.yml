@@ -1,0 +1,35 @@
+name: Convert Reports
+
+on:
+  push:
+    paths:
+      - 'input_files/**'
+      - 'convert_files.py'
+      - 'localbodies.csv'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx pymupdf markdownify
+
+      - name: Run conversion script
+        run: python convert_files.py
+
+      - name: Commit and push converted files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.md files.json
+          git commit -m "Auto: Convert input files to markdown and update manifest" || echo "No changes to commit"
+          git push

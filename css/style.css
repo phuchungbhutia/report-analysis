@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar input, .navbar select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .report-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .report-list div.report-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .report-list div.report-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .report-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .report-content h1, .report-content h2, .report-content h3 {
+    margin-top: 1em;
+  }
+  
