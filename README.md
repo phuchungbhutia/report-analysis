@@ -157,6 +157,6 @@ This project is licensed under the MIT License. See [LICENSE](https://chatgpt.co
 
 ## Contact
 
-Created and maintained by [Your Name](https://github.com/phuchungbhutia).
+Created and maintained by [PB](https://github.com/phuchungbhutia).
 
 Feel free to open issues or PRs!
