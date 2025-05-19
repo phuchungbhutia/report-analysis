@@ -1,8 +1,8 @@
 # Audit Report Data Analysis Workflow
 
-![GitHub repo size](https://img.shields.io/github/repo-size/phuchungbhutia/audit-report-viewer)
-![GitHub stars](https://img.shields.io/github/stars/phuchungbhutia/audit-report-viewer?style=social)
-![GitHub forks](https://img.shields.io/github/forks/phuchungbhutia/audit-report-viewer?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/phuchungbhutia/report-analysis)
+![GitHub stars](https://img.shields.io/github/stars/phuchungbhutia/report-analysis?style=social)
+![GitHub forks](https://img.shields.io/github/forks/phuchungbhutia/report-analysis?style=social)
 
 ---
 
@@ -27,9 +27,9 @@ This project enables easy upload, conversion, and interactive viewing of audit r
 
 ## GitHub Statistics
 
-- Repo size: ![repo size](https://img.shields.io/github/repo-size/phuchungbhutia/audit-report-viewer)
-- Stars: ![stars](https://img.shields.io/github/stars/phuchungbhutia/audit-report-viewer?style=social)
-- Forks: ![forks](https://img.shields.io/github/forks/phuchungbhutia/audit-report-viewer?style=social)
+- Repo size: ![repo size](https://img.shields.io/github/repo-size/phuchungbhutia/report-analysis)
+- Stars: ![stars](https://img.shields.io/github/stars/phuchungbhutia/report-analysis?style=social)
+- Forks: ![forks](https://img.shields.io/github/forks/phuchungbhutia/report-analysis?style=social)
 
 ---
 
@@ -95,7 +95,7 @@ This project enables easy upload, conversion, and interactive viewing of audit r
 
 ### Viewing Reports
 
-- Open the GitHub Pages URL:`https://phuchungbhutia.github.io/audit-report-viewer/`
+- Open the GitHub Pages URL:`https://phuchungbhutia.github.io/report-analysis/`
 - Use the search box to filter reports by unit name or audit year.
 - Sort reports by year or unit using the dropdown.
 - Click any report to view the full Markdown-rendered content on the right.
@@ -108,7 +108,7 @@ This project enables easy upload, conversion, and interactive viewing of audit r
 2. Select the branch (`main` or `master`) and root folder `/` as the source.
 3. Save and wait a few minutes for the site to publish.
 4. Your site URL will look like:
-   `https://phuchungbhutia.github.io/audit-report-viewer/`
+   `https://phuchungbhutia.github.io/report-analysis/`
 
 ---
 
